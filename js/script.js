@@ -35,7 +35,7 @@ window.addEventListener("DOMContentLoaded", () => {
     })
 
     //timer
-    const timeEnd = '2021-11-20';
+    const timeEnd = '2023-03-02';
     function getTimeRemainig(endtime){
         const t = Date.parse(endtime) - Date.parse(new Date()),
             days = Math.floor(t/ (1000*60*60*24)),
